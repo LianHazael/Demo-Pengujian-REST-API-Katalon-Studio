@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,2022-07-07 14:47:53,2022-07-07 14:48:06,13.239s,PASSED
+,,,,,,,
+Test Cases/TC01-Validation Response And Verify JSON Value,,,,2022-07-07 14:47:53,2022-07-07 14:47:57,3.552s,PASSED
+"sendRequest(findTestObject(""GET/Get List User""))",,"Mengirimkan Request
+",,2022-07-07 14:47:54,2022-07-07 14:47:56,2.041s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get List User""))",,Mengirim Request dan Verifikasi Response,,2022-07-07 14:47:56,2022-07-07 14:47:57,0.880s,PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Respon Status Code,,2022-07-07 14:47:57,2022-07-07 14:47:57,0.004s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,"Verifikasi Jumlah Element yang ada pada JSON
+",,2022-07-07 14:47:57,2022-07-07 14:47:57,0.094s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,"Verifikasi Element pada JSON
+",,2022-07-07 14:47:57,2022-07-07 14:47:57,0.038s,PASSED
+,,,,,,,
+Test Cases/TC02-Validation Response Create User,,,,2022-07-07 14:47:57,2022-07-07 14:47:59,1.849s,PASSED
+"sendRequest(findTestObject(""POST/POST Create User""))",,"Mengirim Request
+",,2022-07-07 14:47:57,2022-07-07 14:47:58,0.585s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Create User""))",,"Mengirim Request dan Verifikasi Response
+",,2022-07-07 14:47:58,2022-07-07 14:47:59,0.853s,PASSED
+"verifyResponseStatusCode(response, 201)",,Memverifikasi Response Status Code,,2022-07-07 14:47:59,2022-07-07 14:47:59,0.003s,PASSED
+,,,,,,,
+Test Cases/TC03-Validation Response Register Successfull,,,,2022-07-07 14:47:59,2022-07-07 14:48:00,1.787s,PASSED
+"sendRequest(findTestObject(""POST/POST Register Successfull""))",,Mengirim Request,,2022-07-07 14:47:59,2022-07-07 14:48:00,0.614s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Register Successfull""))",,Mengirim Request dan Verifikasi Response,,2022-07-07 14:48:00,2022-07-07 14:48:00,0.776s,PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2022-07-07 14:48:00,2022-07-07 14:48:00,0.002s,PASSED
+,,,,,,,
+Test Cases/TC04-Validation Response Login Successfull,,,,2022-07-07 14:48:00,2022-07-07 14:48:02,2.057s,PASSED
+"sendRequest(findTestObject(""POST/POST Login Successfull""))",,Mengirim Response,,2022-07-07 14:48:01,2022-07-07 14:48:02,0.810s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Login Successfull""))",,Mengirimkan Request dan Verifikasi Response,,2022-07-07 14:48:02,2022-07-07 14:48:02,0.819s,PASSED
+"verifyResponseStatusCode(response, 200)",,"Memverifikasi Response Status Code
+",,2022-07-07 14:48:02,2022-07-07 14:48:02,0.004s,PASSED
+,,,,,,,
+Test Cases/TC06-Validation Response Delete User,,,,2022-07-07 14:48:02,2022-07-07 14:48:04,1.824s,PASSED
+"sendRequest(findTestObject(""DELETE/Delete User""))",,"Mengirimkan Request
+",,2022-07-07 14:48:03,2022-07-07 14:48:03,0.596s,PASSED
+"response = sendRequestAndVerify(findTestObject(""DELETE/Delete User""))",,Mengirimkan Request dan Verifikasi Reponse ,,2022-07-07 14:48:03,2022-07-07 14:48:04,0.803s,PASSED
+"verifyResponseStatusCode(response, 204)",,Memverifikasi Response Status Code,,2022-07-07 14:48:04,2022-07-07 14:48:04,0.003s,PASSED
+,,,,,,,
+Test Cases/TC05-Validation Responses Update User,,,,2022-07-07 14:48:04,2022-07-07 14:48:06,1.803s,PASSED
+"sendRequest(findTestObject(""PUT/PUT Update User""))",,Mengirimkan Request,,2022-07-07 14:48:05,2022-07-07 14:48:05,0.619s,PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT/PUT Update User""))",,Mengrimkan dan Verifikasi Request dan Response,,2022-07-07 14:48:05,2022-07-07 14:48:06,0.814s,PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2022-07-07 14:48:06,2022-07-07 14:48:06,0.002s,PASSED

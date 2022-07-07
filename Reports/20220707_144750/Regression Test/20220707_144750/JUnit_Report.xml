@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="13.239" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="6" failures="0" errors="0" time="13.239" skipped="0" timestamp="2022-07-07 14:47:53" hostname="Stream - LAPTOP-J3DPLDPT" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stream\\git\\Demo-Pengujian-REST-API-Katalon-Studio\\Reports\\20220707_144750\\Regression Test\\20220707_144750"/>
+         <property name="logFiles" value="C:\\Users\\Stream\\git\\Demo-Pengujian-REST-API-Katalon-Studio\\Reports\\20220707_144750\\Regression Test\\20220707_144750\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stream - LAPTOP-J3DPLDPT"/>
+         <property name="hostAddress" value="192.168.23.108"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/TC01-Validation Response And Verify JSON Value" time="3.552" classname="Test Cases/TC01-Validation Response And Verify JSON Value" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:47:53 - [TEST_CASE][PASSED] - Test Cases/TC01-Validation Response And Verify JSON Value: Test Cases/TC01-Validation Response And Verify JSON Value
+
+2022-07-07 14:47:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get List User")): Send request successfully
+
+2022-07-07 14:47:56 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\0.har
+
+2022-07-07 14:47:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get List User")): Send request and verify the response successfully
+
+2022-07-07 14:47:56 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\1.har
+
+2022-07-07 14:47:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:47:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-07-07 14:47:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:47:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:47:57 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data.first_name", 6): Verify element count successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Verify element count successfully
+
+2022-07-07 14:47:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2022-07-07 14:47:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Validation Response Create User" time="1.849" classname="Test Cases/TC02-Validation Response Create User" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:47:57 - [TEST_CASE][PASSED] - Test Cases/TC02-Validation Response Create User: Test Cases/TC02-Validation Response Create User
+
+2022-07-07 14:47:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Create User")): Send request successfully
+
+2022-07-07 14:47:58 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\2.har
+
+2022-07-07 14:47:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:47:58 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Create User")): Send request and verify the response successfully
+
+2022-07-07 14:47:58 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\3.har
+
+2022-07-07 14:47:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2022-07-07 14:47:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:47:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:47:59 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2022-07-07 14:47:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-Validation Response Register Successfull" time="1.787" classname="Test Cases/TC03-Validation Response Register Successfull" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:47:59 - [TEST_CASE][PASSED] - Test Cases/TC03-Validation Response Register Successfull: Test Cases/TC03-Validation Response Register Successfull
+
+2022-07-07 14:47:59 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Register Successfull")): Send request successfully
+
+2022-07-07 14:48:00 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\4.har
+
+2022-07-07 14:48:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Register Successfull")): Send request and verify the response successfully
+
+2022-07-07 14:48:00 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\5.har
+
+2022-07-07 14:48:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-07-07 14:48:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:48:00 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:48:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-Validation Response Login Successfull" time="2.057" classname="Test Cases/TC04-Validation Response Login Successfull" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:48:00 - [TEST_CASE][PASSED] - Test Cases/TC04-Validation Response Login Successfull: Test Cases/TC04-Validation Response Login Successfull
+
+2022-07-07 14:48:01 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Login Successfull")): Send request successfully
+
+2022-07-07 14:48:02 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\6.har
+
+2022-07-07 14:48:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Login Successfull")): Send request and verify the response successfully
+
+2022-07-07 14:48:02 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\7.har
+
+2022-07-07 14:48:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-07-07 14:48:02 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:48:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:48:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06-Validation Response Delete User" time="1.824" classname="Test Cases/TC06-Validation Response Delete User" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:48:02 - [TEST_CASE][PASSED] - Test Cases/TC06-Validation Response Delete User: Test Cases/TC06-Validation Response Delete User
+
+2022-07-07 14:48:03 - [TEST_STEP][PASSED] - sendRequest(findTestObject("DELETE/Delete User")): Send request successfully
+
+2022-07-07 14:48:03 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\8.har
+
+2022-07-07 14:48:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:48:03 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DELETE/Delete User")): Send request and verify the response successfully
+
+2022-07-07 14:48:04 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\9.har
+
+2022-07-07 14:48:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2022-07-07 14:48:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 204)): null
+
+2022-07-07 14:48:04 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:48:04 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:48:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2022-07-07 14:48:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05-Validation Responses Update User" time="1.803" classname="Test Cases/TC05-Validation Responses Update User" status="PASSED">
+         <system-out><![CDATA[2022-07-07 14:48:04 - [TEST_CASE][PASSED] - Test Cases/TC05-Validation Responses Update User: Test Cases/TC05-Validation Responses Update User
+
+2022-07-07 14:48:05 - [TEST_STEP][PASSED] - sendRequest(findTestObject("PUT/PUT Update User")): Send request successfully
+
+2022-07-07 14:48:05 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\10.har
+
+2022-07-07 14:48:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-07 14:48:05 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("PUT/PUT Update User")): Send request and verify the response successfully
+
+2022-07-07 14:48:06 - [MESSAGE][INFO] - HAR: C:\Users\Stream\git\Demo-Pengujian-REST-API-Katalon-Studio\Reports\20220707_144750\Regression Test\20220707_144750\requests\main\11.har
+
+2022-07-07 14:48:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-07-07 14:48:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-07-07 14:48:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-07-07 14:48:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-07 14:48:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-07 14:47:53 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/TC05-Validation Responses Update User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
